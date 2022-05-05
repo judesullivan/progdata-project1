@@ -28,7 +28,7 @@ Soybean is the key ingredient behind multiple household food items like tofu, ed
 
 ## Setting Up
 
-```{r setup, include=FALSE}
+```{r setup}
 #Load packages
 
 library(tidyverse)
