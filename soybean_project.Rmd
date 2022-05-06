@@ -88,9 +88,10 @@ soybean_use_2013 |>
     human_percent = (human_food / use_total) * 100,
     animal_percent = (animal_feed / use_total) * 100,
     processed_percent = (processed / use_total) * 100
-    )
+    ) 
 
 kable(soybean_use_2013)
+
 
 #2013's Top 10 countries in soybean production 
 
@@ -112,6 +113,8 @@ ggplot(data = top_countries_2013) +
 
 
 ```
+
+Here, we uncovered that China, the United States of America, Brazil, Argentina, India, Germany, Mexico, Spain, Paraguay, and Japan were the top ten soybean producers in the world in 2013.
 
 
 
@@ -167,6 +170,12 @@ ggplot(data = usa_production_history) +
   labs(title = "USA Total Soybean Production from 1961-2013")
 
 ```
+
+# Conclusion
+
+These results show that less soybean was used to make processed foods in recent years compared to in the past in the United States, while the direct use of soybean for animal feed has increased. Directly feeding soybean to animals rather than processing it in factories is promising for the environment as it conserves electrical energy and promotes feeding animals at lower trophic levels, which wastes less resources. 
+
+Unfortunately, the category of soybean being used to make processed goods is conflated with products being made for both humans and animals. For example, there is not a clear distinction between the animal feed category and the use of soybean to make *processed* animal feed. Hopefully, the trend towards direct animal consumption of soybean has continued to increase since 2013. This is still not ideal however, as direct human consumption of soybean would lessen our dependence on livestock farming for diets around the world, particularly in developed countries. 
 
 
 
